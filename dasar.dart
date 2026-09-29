@@ -30,5 +30,14 @@ void main() {
   //tampilkan waktu transaksi
   print("Waktu Transaksi: $transaksiWaktu");
 
+  // Nilainya sudah pasti (0.1) sebelum program jalan & tipe datanya (double) ditulis tegas
+  const double diskon = 0.1;
+  // Nilainya absolut ("Restoran Ayam Merah Putih") & tipe datanya (String) ditulis jelas
+  const String namaRestoran = "Restoran Ayam Merah Putih";
+  //tampilkan diskon dan nama restoran
+  print("Diskon: $diskon");
+  //tampilkan nama restoran
+  print("Nama Restoran: $namaRestoran");
+
   
 }
