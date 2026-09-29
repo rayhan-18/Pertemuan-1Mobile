@@ -21,5 +21,14 @@ void main() {
   //kalau deskripsi pembeli null maka tampilkan "Pembeli menerima nama minuman"
   print(deskripsiPembeli ?? "Pembeli menerima $namaMinuman");
 
-}
+  //buat variabel untuk menyimpan id transaksi
+  final String transaksiid = "TRK-001";
+  //buat variabel untuk menyimpan waktu transaksi
+  final DateTime transaksiWaktu = DateTime.now();
+  //tampilkan id transaksi dan waktu transaksi
+  print("ID Transaksi: $transaksiid");
+  //tampilkan waktu transaksi
+  print("Waktu Transaksi: $transaksiWaktu");
 
+  
+}
