@@ -40,4 +40,14 @@ void main() {
   print("Nama Restoran: $namaRestoran");
 
   
+  late String pembayaranRestoran;
+
+  //bikin fungsi lokal untuk memproses pembayaran restoran
+  void prosesPembayaran() {
+    pembayaranRestoran = "invoice-001${ DateTime.now().millisecondsSinceEpoch }";
+    print("Pembayaran Restoran: $pembayaranRestoran");
+  }
+  
+  //panggil fungsi prosesPembayaran supaya variabel pembayaranRestoran diisi dengan nilai invoice
+  prosesPembayaran();
 }
