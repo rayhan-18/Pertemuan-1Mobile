@@ -82,4 +82,11 @@ void main() {
 
     print(daftarMakanan[0]); //tampilkan daftar makanan
     print(daftarMakanan[1]); //tampilkan daftar makanan
+
+    Set<String> daftarMinuman = {
+      'Es Teh Manis', 
+      'Es Jeruk', 
+      'Es Campur'}; //bikin variabel daftarMinuman dengan tipe data Set<String> dan isi dengan daftar minuman
+
+      print(daftarMinuman); //tampilkan daftar minuman
 }
