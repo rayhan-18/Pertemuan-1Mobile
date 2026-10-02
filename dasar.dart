@@ -50,4 +50,11 @@ void main() {
   
   //panggil fungsi prosesPembayaran supaya variabel pembayaranRestoran diisi dengan nilai invoice
   prosesPembayaran();
+
+  String nama = 'Rayhan'; //bikin variabel nama dengan tipe data String dan isi dengan nama kamu
+  String alamat = 'Bugel'; //bikin variabel alamat dengan tipe data String dan isi dengan alamat kamu
+
+  print(nama.toUpperCase()); //tampilkan nama dalam huruf kapital
+  print(alamat.toLowerCase()); //tampilkan alamat dalam huruf kecil
+  
 }
