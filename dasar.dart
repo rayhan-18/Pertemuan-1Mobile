@@ -106,5 +106,11 @@ void main() {
         if (makanan is String) {
           print(makanan.toUpperCase()); //tampilkan nama makanan dalam huruf kapital
         }
+        
+        dynamic data = "Muray"; //bikin variabel nama dengan tipe data dynamic dan isi dengan nama
+        
+        print(data.toUpperCase()); //tampilkan nama dalam huruf kapital
+
+        
 
 }
