@@ -61,5 +61,9 @@ void main() {
   int tahunLahir = 2004; //bikin variabel tahunLahir dengan tipe data int dan isi dengan tahun lahir
   int point = 100; //bikin variabel point dengan tipe data int dan isi dengan point
   print('Umur: $umur, Tahun Lahir: $tahunLahir, Point: $point'); //tampilkan umur, tahun lahir, dan point
-  
+
+  double tinggiBadan = 1.75; //bikin variabel tinggiBadan dengan tipe data double dan isi dengan tinggi badan
+  double hargaMakananPerPorsi = 15000.0; //bikin variabel hargaMakananPerPorsi dengan tipe data double dan isi dengan harga makanan per porsi
+  double diskonMakanan = 0.1; //bikin variabel diskonMakanan dengan tipe data double dan isi dengan diskon makanan
+  print('Tinggi Badan: $tinggiBadan, Harga Makanan Per Porsi: $hargaMakananPerPorsi, Diskon Makanan: $diskonMakanan'); //tampilkan tinggi badan, harga makanan per porsi, dan diskon makanan
 }
