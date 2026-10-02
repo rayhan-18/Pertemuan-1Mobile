@@ -70,4 +70,8 @@ void main() {
   num nilai = 10; //bikin variabel nilai dengan tipe data num dan isi dengan nilai
   nilai = 10.5; //ubah nilai variabel nilai menjadi 10.5
   print('Nilai: $nilai'); //tampilkan nilai
+
+  bool isAvailableMakanan = true; //bikin variabel isAvailableMakanan dengan tipe data bool dan isi dengan true
+  bool isAvailableMinuman = false; //bikin variabel isAvailableMinuman dengan tipe data bool dan isi dengan false
+  print('Status Ketersediaan Makanan: $isAvailableMakanan, Status Ketersediaan Minuman: $isAvailableMinuman'); //tampilkan status ketersediaan makanan dan minuman
 }
