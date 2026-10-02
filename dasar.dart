@@ -98,4 +98,13 @@ void main() {
         print(menuMakanan['nama']); //tampilkan nama makanan
         print(menuMakanan['harga']); //tampilkan harga makanan
         print(menuMakanan['jumlahPorsi']); //tampilkan jumlah porsi
+
+        Object makanan = 'Ayam Merah Putih'; //bikin variabel makanan dengan tipe data Object dan isi dengan nama makanan
+        makanan = 15000; //ubah nilai variabel makanan menjadi harga makanan
+        makanan = true; //ubah nilai variabel makanan menjadi status ketersediaan makanan
+
+        if (makanan is String) {
+          print(makanan.toUpperCase()); //tampilkan nama makanan dalam huruf kapital
+        }
+
 }
