@@ -66,4 +66,8 @@ void main() {
   double hargaMakananPerPorsi = 15000.0; //bikin variabel hargaMakananPerPorsi dengan tipe data double dan isi dengan harga makanan per porsi
   double diskonMakanan = 0.1; //bikin variabel diskonMakanan dengan tipe data double dan isi dengan diskon makanan
   print('Tinggi Badan: $tinggiBadan, Harga Makanan Per Porsi: $hargaMakananPerPorsi, Diskon Makanan: $diskonMakanan'); //tampilkan tinggi badan, harga makanan per porsi, dan diskon makanan
+
+  num nilai = 10; //bikin variabel nilai dengan tipe data num dan isi dengan nilai
+  nilai = 10.5; //ubah nilai variabel nilai menjadi 10.5
+  print('Nilai: $nilai'); //tampilkan nilai
 }
