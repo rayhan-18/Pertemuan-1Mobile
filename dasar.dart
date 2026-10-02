@@ -89,4 +89,13 @@ void main() {
       'Es Campur'}; //bikin variabel daftarMinuman dengan tipe data Set<String> dan isi dengan daftar minuman
 
       print(daftarMinuman); //tampilkan daftar minuman
+
+      Map <String, dynamic> menuMakanan = {
+        'nama': 'Ayam Merah Putih', 
+        'harga': 15000, 
+        'jumlahPorsi': 5}; //bikin variabel menuMakanan dengan tipe data Map<String, dynamic> dan isi dengan menu makanan
+
+        print(menuMakanan['nama']); //tampilkan nama makanan
+        print(menuMakanan['harga']); //tampilkan harga makanan
+        print(menuMakanan['jumlahPorsi']); //tampilkan jumlah porsi
 }
