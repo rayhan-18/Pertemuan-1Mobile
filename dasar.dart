@@ -74,4 +74,12 @@ void main() {
   bool isAvailableMakanan = true; //bikin variabel isAvailableMakanan dengan tipe data bool dan isi dengan true
   bool isAvailableMinuman = false; //bikin variabel isAvailableMinuman dengan tipe data bool dan isi dengan false
   print('Status Ketersediaan Makanan: $isAvailableMakanan, Status Ketersediaan Minuman: $isAvailableMinuman'); //tampilkan status ketersediaan makanan dan minuman
+
+  List<String> daftarMakanan = [
+    'Ayam Merah Putih', 
+    'Nasi Goreng', 
+    'Mie Goreng']; //bikin variabel daftarMakanan dengan tipe data List<String> dan isi dengan daftar makanan
+
+    print(daftarMakanan[0]); //tampilkan daftar makanan
+    print(daftarMakanan[1]); //tampilkan daftar makanan
 }
