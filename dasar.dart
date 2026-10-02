@@ -51,10 +51,15 @@ void main() {
   //panggil fungsi prosesPembayaran supaya variabel pembayaranRestoran diisi dengan nilai invoice
   prosesPembayaran();
 
-  String nama = 'Rayhan'; //bikin variabel nama dengan tipe data String dan isi dengan nama kamu
-  String alamat = 'Bugel'; //bikin variabel alamat dengan tipe data String dan isi dengan alamat kamu
+  String nama = 'Rayhan'; //bikin variabel nama dengan tipe data String dan isi dengan nama 
+  String alamat = 'Bugel'; //bikin variabel alamat dengan tipe data String dan isi dengan alamat 
 
   print(nama.toUpperCase()); //tampilkan nama dalam huruf kapital
   print(alamat.toLowerCase()); //tampilkan alamat dalam huruf kecil
+
+  int umur = 20; //bikin variabel umur dengan tipe data int dan isi dengan umur 
+  int tahunLahir = 2004; //bikin variabel tahunLahir dengan tipe data int dan isi dengan tahun lahir
+  int point = 100; //bikin variabel point dengan tipe data int dan isi dengan point
+  print('Umur: $umur, Tahun Lahir: $tahunLahir, Point: $point'); //tampilkan umur, tahun lahir, dan point
   
 }
