@@ -1,4 +1,4 @@
-# 🚀 Rangkuman Materi Dasar Dart
+# Rangkuman Materi Dasar-Dasar Dart
 
 Repository ini berisi kodingan latihan untuk memahami konsep-konsep fundamental dalam bahasa pemrograman **Dart**.
 
